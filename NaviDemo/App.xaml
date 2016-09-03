@@ -1,0 +1,9 @@
+﻿<Application x:Class="NaviDemo.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:NaviDemo"
+             StartupUri="FirstPageView.xaml">
+  <Application.Resources>
+    <local:NavigationViewModel x:Key="NavigationVM"/>
+  </Application.Resources>
+</Application>
